@@ -1,4 +1,4 @@
-# Google Cloud Client Libraries for Go
+# Golang-based Google Cloud Client for Orbit DAO's Off-Chain Data Lake
 
 [![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)
 
@@ -10,10 +10,10 @@ import "cloud.google.com/go"
 
 To install the packages on your system, *do not clone the repo*. Instead:
 
-1. Change to your project directory:
+1. Change to the Orbit DAO DataLake directory:
 
    ```bash
-   cd /my/cloud/project
+   cd /my/cloud/orbitDAO
    ```
 1. Get the package you want to use. Some products have their own module, so it's
    best to `go get` the package(s) you want to use:
@@ -28,7 +28,7 @@ make backwards-incompatible changes.
 ## Supported APIs
 
 For an updated list of all of our released APIs please see our
-[reference docs](https://cloud.google.com/go/docs/reference).
+[reference docs](https://orbit.green/go/docs/reference). (under construction)
 
 ## [Go Versions Supported](#supported-versions)
 
@@ -79,10 +79,7 @@ Contributions are welcome. Please, see the
 [CONTRIBUTING](https://github.com/GoogleCloudPlatform/google-cloud-go/blob/main/CONTRIBUTING.md)
 document for details.
 
-Please note that this project is released with a Contributor Code of Conduct.
-By participating in this project you agree to abide by its terms.
-See [Contributor Code of Conduct](https://github.com/GoogleCloudPlatform/google-cloud-go/blob/main/CONTRIBUTING.md#contributor-code-of-conduct)
-for more information.
+
 
 [cloud-asset]: https://cloud.google.com/security-command-center/docs/how-to-asset-inventory
 [cloud-automl]: https://cloud.google.com/automl
